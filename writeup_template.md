@@ -8,14 +8,14 @@
 
 **Finding Lane Lines on the Road**
 
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+In this project I created a pipeline which identifies lanes in roadimages.
+An example for an possible input image is shown below.
+
 
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+![alt text](solidWhiteCurve.jpg "example")
 
 ---
 
