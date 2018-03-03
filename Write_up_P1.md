@@ -14,7 +14,9 @@ This Pipeline works for images, but I will apply it to videos also. It can recog
 The pipeline consist of the following steps:
 
 1. Convert image to grayscale.
+
 ![alt text](gray.JPG "gray")
+
 2. Define color masks
 I define color masks in the color_mask() function. In order to get the yellow parts of the image, I convert from RGB to HSV.
 In HSV space it`s easier than in RGB space to filter out the yellow parts of the image.
@@ -23,14 +25,18 @@ The thresholds for yellow were set to lower_yellow = [20, 100, 100] and upper_ye
 ![alt text](masked.JPG "masked")
 
 3. Use the canny algorithm for edge detection.
+
 ![alt text](canny.JPG "canny")
+
 4. Apply a Gaussian blurring.
 Its important to blur after the edge detection. The edge detection performs worse in a blurred image.
 
 5. Define a Region of Interest (RoI).
+
 ![alt text](RoI.JPG "RoI")
 
 6. Use Hough line detection Algorithm.
+
 ![alt text](Hough_line.JPG "Hough_lines")
 
 7. Draw the lines in the initial input image.
