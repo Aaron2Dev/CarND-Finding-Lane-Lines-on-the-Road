@@ -6,7 +6,7 @@ A example for a possible input image is shown below.
 [//]: # (Image References)
 
 ![alt text](solidWhiteCurve.jpg "example")
-![alt text](gray.jpg "gray")
+![alt text](gray.JPG "gray")
 ![alt text](masked.jpg "masked")
 ![alt text](canny.jpg "canny")
 ![alt text](RoI.jpg "RoI")
